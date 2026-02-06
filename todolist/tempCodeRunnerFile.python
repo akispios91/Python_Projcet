@@ -1,0 +1,33 @@
+
+tasklist = []
+
+print("Welcome to To Do list app")
+
+
+
+while True:
+
+    choice = input ("1.add task\n2.view task\n3.Delete task\n4.")
+
+    if choice == "1":
+        break
+
+    elif choice == "2":
+        print(tasklist)
+
+    elif choice == "3":
+         print("Delete task: ")
+         for task in tasklist:
+             if task == tasklist[task]:
+                 tasklist.remove[task]
+
+    elif choice == "4": break
+
+    else:
+        print("Wrong Choice try again")
+        choice = input ("1.add task\n2.view task\3.Delete task\4.")
+
+        
+    
+                 
+
